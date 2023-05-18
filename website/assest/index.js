@@ -16,6 +16,7 @@ async function updateCounter() {
 
 updateCounter();
 
-
+const element = document.getElementById("my-element"); 
+element.addEventListener("contextmenu", (event) => { event.preventDefault(); // show a custom context menu });
 
 
